@@ -1,5 +1,5 @@
 <script>
-import Header from '../components/Header.vue'
+/* import Header from '../components/Header.vue'
 import Body from '../components/Body.vue'
 
 export default {
