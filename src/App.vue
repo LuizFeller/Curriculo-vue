@@ -24,10 +24,10 @@ export default {
   <h1>CURRÍCULO</h1>
 
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/contact">contact</RouterLink>
-        <p></p>
+        <RouterLink to="/">Capa</RouterLink>
+        <RouterLink to="/about">Conteúdo</RouterLink>
+        <RouterLink to="/contact">Final</RouterLink>
+
       </nav>
   </header>
 </div>
@@ -66,8 +66,17 @@ header {
 header nav {
   display: flex;
   justify-content: space-between;
+  width: 30%;
 
 }
+
+nav a {
+color:black;
+top: -35px;
+right: 300px;
+
+}
+
 h1 {
   position:fixed;
   right: 50%;
@@ -76,20 +85,20 @@ h1 {
 main {
   padding-top: 10vh;
   min-height: 120vh;
-  background: green
+  background: green;
 
 }
 
 footer {
 
   background: rgb(0, 255, 200);
-  min-height: 30px;
+  min-height: 40px;
   text-align: center;
 
 }
 
 .volta-ao-topo {
-  background-color: rgb(255, 144, 40);
+  background-color: rgb(255, 187, 40);
   font-weight:bold;
 
   

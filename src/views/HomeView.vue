@@ -2,6 +2,7 @@
 import TheWelcome from '../components/TheWelcome.vue'
 import foto from '@/assets/foto.svg'
 
+
 export default{
   data(){
     return{
