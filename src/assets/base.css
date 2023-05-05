@@ -63,5 +63,5 @@ a {
   color:inherit; 
   
 /* vale o mesmo para color unset e color initial*/
-text-decoration: nome;
+text-decoration: none;
 }
