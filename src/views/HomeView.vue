@@ -1,18 +1,5 @@
 <script>
 import TheWelcome from '../components/TheWelcome.vue'
-import foto from '@/assets/foto.svg'
-
-
-export default{
-  data(){
-    return{
-      foto
-    }
-  }
-}
-
-
-
 </script>
 
 <template>
@@ -21,16 +8,24 @@ export default{
     <section>
       <h2>LUIZ ALFREDO FELLER</h2>
       
-      <div class="container-img center">
-          <img :src="foto" width="100" alt="">
-      </div>
 
     </section>
   </div>
+      <div class="foto">
+          <img src="../Fotos/Foto.jpeg" width="320" height="400" alt="">
+      </div>
 
 </template>
 
 <style scoped>
+
+
+.foto {
+  justify-content: center;
+  text-align: center;
+  width: center;
+
+}
 
 div.main {
   display: flex;
@@ -38,7 +33,7 @@ div.main {
   align-items: center;
   flex-direction: column;
   padding-left: 0rem;
-  margin-top: 50%;
+  margin-top: 10%;
 
 }
 

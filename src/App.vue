@@ -69,11 +69,11 @@ header nav {
   width: 30%;
 
 }
-
+/* ajustes de posicionamento de Home, About and Contact*/
 nav a {
 color:black;
 top: -35px;
-right: 300px;
+right: 120%;
 
 }
 
@@ -85,13 +85,14 @@ h1 {
 main {
   padding-top: 10vh;
   min-height: 120vh;
-  background: green;
+  background:gray;
 
 }
 
 footer {
 
-  background: rgb(0, 255, 200);
+  /* background: rgb(0, 255, 200); */
+  background: blue;
   min-height: 40px;
   text-align: center;
 
