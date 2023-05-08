@@ -19,7 +19,8 @@ import TheWelcome from '../components/TheWelcome.vue'
 
 <style scoped>
 
-
+/**/
+ 
 .foto {
   justify-content: center;
   text-align: center;
