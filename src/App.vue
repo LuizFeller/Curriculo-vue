@@ -69,7 +69,8 @@ header nav {
   width: 30%;
 
 }
-/* posicionamento de Home, About and Contact*/
+/* 
+posicionamento de Home, About and Contact*/
 nav a {
 color:black;
 top: -35px;
