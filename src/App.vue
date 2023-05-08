@@ -26,7 +26,7 @@ export default {
       <nav>
         <RouterLink to="/">Capa</RouterLink>
         <RouterLink to="/about">Conteúdo</RouterLink>
-        <RouterLink to="/contact">Final</RouterLink>
+        <!-- <RouterLink to="/contact">Final</RouterLink> -->
 
       </nav>
   </header>
@@ -69,7 +69,7 @@ header nav {
   width: 30%;
 
 }
-/* ajustes de posicionamento de Home, About and Contact*/
+/* posicionamento de Home, About and Contact*/
 nav a {
 color:black;
 top: -35px;

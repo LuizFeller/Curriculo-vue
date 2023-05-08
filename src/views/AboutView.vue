@@ -16,13 +16,13 @@ export default{
   
   <div class="main2">
 
-    <section>
+    <!-- <section>
       <h2>RESUMO PROFISSIONAL</h2>
       <br>
         <p>-</p>
         <p>-</p> 
         <p>-</p>
-        <p>-</p> </section>
+        <p>-</p> </section> -->
       
 
     <section>
