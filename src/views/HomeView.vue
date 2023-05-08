@@ -12,15 +12,13 @@ import TheWelcome from '../components/TheWelcome.vue'
     </section>
   </div>
       <div class="foto">
-          <img src="../Fotos/Foto.jpeg" width="320" height="400" alt="">
+          <img src="../Fotos/Foto.jpeg" width="310" height="400" alt="">
       </div>
 
 </template>
 
 <style scoped>
 
-/**/
- 
 .foto {
   justify-content: center;
   text-align: center;
