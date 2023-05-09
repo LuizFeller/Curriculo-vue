@@ -12,98 +12,38 @@ export default {
         }
     }
 }
-
 </script>
-
 <template>
-
-
-<div class="curriculo">
-<header>
-
-  <h1>CURRÍCULO</h1>
-
-      <nav>
-        <RouterLink to="/">Capa</RouterLink>
-        <RouterLink to="/about">Conteúdo</RouterLink>
-        <!-- <RouterLink to="/contact">Final</RouterLink> -->
-
-      </nav>
+  <header>
+    <div >
+        <nav class="divCabecalho">
+          <router-link to="/" tag="button" class="btn btn-primary btn-lg espacoEntreBotoes">Apresentação</router-link>
+          <router-link to="/about" tag="button" class="btn btn-primary btn-lg espacoEntreBotoes">Currículo</router-link>
+          <router-link to="/galeria" tag="button" class="btn btn-primary btn-lg espacoEntreBotoes">Galeria</router-link> 
+        </nav>
+      </div>
   </header>
-</div>
-
   <main>
-  
-  <RouterView />
-  </main>
-
-<footer>
-
-    <button class="volta-ao-topo" @click="topo()">Voltar ao topo</button>
-
+    <div class="area">
+      <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <div class="divCabecalho"></div>
+    <RouterView />
+  </div>
+</main>
+<footer class="area">
+  <button type="button" class="btn btn-primary btn-lg" @click="topo()"><i class="bi bi-arrow-bar-up"></i>Voltar ao topo</button>
 </footer>
-
 </template>
-
-
-<style scoped>
-
-header {
-  background:blue;
-  position: fixed;
-  top:0;
-  z-index: 2;
-  width: 100vw;
-  height: 10vh;
-
-  display: flex;
-
-  justify-content: flex-end;
-  padding: 4 8rem;
-  align-items: center;
-}
-
-header nav {
-  display: flex;
-  justify-content: space-between;
-  width: 30%;
-
-}
-/* 
-posicionamento de Home, About and Contact*/
-nav a {
-color:black;
-top: -35px;
-right: 120%;
-
-}
-
-h1 {
-  position:fixed;
-  right: 50%;
-  transform: translatex(50%);
-}
-main {
-  padding-top: 10vh;
-  min-height: 120vh;
-  background:gray;
-
-}
-
-footer {
-
-  /* background: rgb(0, 255, 200); */
-  background: blue;
-  min-height: 40px;
-  text-align: center;
-
-}
-
-.volta-ao-topo {
-  background-color: rgb(255, 187, 40);
-  font-weight:bold;
-
-  
-}
-
+<style>
 </style>
