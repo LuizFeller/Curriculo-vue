@@ -11,19 +11,14 @@ const router = createRouter({
     },
     {  
       path: '/about',
-    name: 'about',
-    component: () => import('../views/AboutView.vue')
-  },
-    /* {
-      path: '/gatos',
-      name: 'gatos',
-      component: () => import('../views/GatosView.vue')
+      name: 'about',
+      component: () => import('../views/AboutView.vue')
     },
     {
-      path: '/hobbies',
-      name: 'hobbies',
-      component: () => import('../views/HobbiesView.vue')
-    } */
+      path: '/galeria',
+      name: 'galeria',
+      component: () => import('../views/GaleriaView.vue')
+    },
   ]
 })
 
